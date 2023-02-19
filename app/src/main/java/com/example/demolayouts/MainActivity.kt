@@ -39,5 +39,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.mainFrameLayout.addView(layoutInflater.inflate(R.layout.first_layout, binding.mainFrameLayout, false))
 
+
     }
 }
