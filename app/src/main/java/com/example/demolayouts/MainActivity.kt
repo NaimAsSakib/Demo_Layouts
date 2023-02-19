@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding1: FirstLayoutBinding
 
-    private lateinit var binding2: SecondLayoutBinding
+   private lateinit var binding2: SecondLayoutBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         // Set the visibility of views in the main layout
         binding.mainFrameLayout.removeAllViews()
-        binding.mainFrameLayout.addView(binding2.layoutMain2)
+        binding.mainFrameLayout.addView(binding.layout2InInclude.layoutMain2)
 
     }
 }
